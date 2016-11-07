@@ -1,0 +1,83 @@
+.header {
+    width: 100%;
+}
+@media all and (max-width: 480px) {
+    .nav {
+        width: 50%;
+        float: left;
+    }
+    .title {
+        width: 50%;
+        float: left;
+        font-size: 2em;
+    }
+    /*body {
+    background: red;
+    }*/
+}
+@media all and (min-width: 481px) {
+    .login-register {
+        position: relative;
+        top: 22.5px;
+        float: right;
+        margin-right: 2%;
+    }
+    .login-register a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+    .title {
+        font-size: 5em;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .nav {
+        height: 60px;
+        background-color: rgba(0, 255, 255, 0.5);
+    }
+    .nav-button {
+        margin-top: 12.5px;
+        height: 100%;
+        list-style-type: none;
+        float: left;
+        padding-right: 5px;
+    }
+    .nav-button a, .nav-contact a {
+        padding: 0px 10px;
+        font-size: 20pt;
+        font-weight: bold;
+        color: darkblue;
+        text-decoration: none;
+        transition: all .2s ease-in-out;
+    }
+    .nav-button a:hover, .nav-button a:focus, .nav-contact a:hover, .nav-contact a:focus {
+        border-radius: 20px;
+        background-color: rgb(0, 200, 200);
+    }
+    .nav-contact {
+        margin-top: 12.5px;
+        list-style-type: none;
+        float: left;
+    }
+    .contact-content {
+        display: none;
+        position: absolute;
+        margin-left: 17.3%;
+        margin-top: 52.5px;
+        background-color: rgb(200, 200, 200);
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+    .contact-content a {
+        color: darkblue;
+        padding: 12px 13.5px;
+        text-decoration: none;
+        display: block;
+    }
+    .contact-content a:hover {
+        background-color: rgba(0, 100, 100, 0.7);
+        color: white;
+    }
+    .contact:hover .contact-content {
+        display: block;
+    }
+}

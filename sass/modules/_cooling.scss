@@ -1,0 +1,56 @@
+.cooling {
+  height: 2000px;
+  opacity: .999999;
+  z-index: -2;
+
+  .item, .accessory {
+    height: 550px;
+    width: 500px;
+    border: solid 1px lightblue;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    float: left;
+  }
+  .item img, .accessory img {
+    width: 100%;
+    height: 55%;
+  }
+  .item h3, .accessory h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: normal;
+    font-size: 12pt;
+    margin-top: 5px;
+  }
+  #less-width img {
+    width: 80%;
+    margin-left: 10%;
+  }
+  #less-width2 img {
+    width: 60%;
+    margin-left: 20%;
+  }
+  .accessory {
+    ul li {
+      list-style-type: none;
+      padding: 1%;
+
+      :hover {
+        color: white;
+        background-color: darkblue
+      }
+    }
+
+    ul a {
+      text-decoration: none;
+      color: darkblue;
+      background-color: white;
+      border: 1px solid darkblue;
+      border-radius: 2px;
+    }
+
+    p {
+      padding: 0% 5% 0% 5%;
+    }
+  }
+}

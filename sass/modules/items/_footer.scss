@@ -1,0 +1,90 @@
+.footer {
+  .info {
+    position: fixed;
+    bottom: 0;
+    height: 51.4%;
+    width: 55%;
+    margin-left: 45%;
+    z-index: -1;
+
+    h2 {
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+
+    p {
+      text-align: center;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+
+  .legal {
+    text-align: right;
+    margin-right: 55px;
+    margin-top: 40px;
+  }
+
+  fieldset {
+    border: 0;
+  }
+
+  .newsletter {
+    position: fixed;
+    bottom: 0;
+    height: 51.4%;
+    width: 100%;
+    z-index: -1;
+
+    legend {
+      margin-left: 16%;
+      margin-top: .2%;
+    }
+
+    .input-field {
+      display: block;
+      margin: 10px auto 10px 16%;
+      padding: 5px 30px 5px 50px;
+      width: 20%;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    select {
+      display: block;
+      margin: 10px auto 10px 23.7%;
+    }
+
+    input[type=submit] {
+      width: 10.6%;
+      margin-left: 24%;
+      cursor: pointer;
+    }
+
+    label {
+      float: left;
+      clear: left;
+      padding-top: 18px;
+      width: 182px;
+      margin-left: 1%;
+      text-align: right;
+    }
+
+    label[for=part] {
+      padding-top: 0;
+    }
+
+    label:not([for=email]) {
+      margin-top: -10px;
+    }
+  }
+
+  input:valid {
+    color: blue;
+  }
+
+  input:invalid {
+    color: red;
+  }
+}

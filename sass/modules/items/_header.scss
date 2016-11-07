@@ -1,0 +1,101 @@
+.header {
+  width: 100%;
+
+  @media all and (max-width: 628px) {
+    .nav {
+      width: 50%;
+      float: left;
+    }
+
+    .title {
+      width: 50%;
+      float: left;
+      font-size: 2em;
+    }
+  }
+
+  @media all and (min-width: 629px) {
+    .title {
+      font-size: 5em;
+      text-align: center;
+      margin-top: 0;
+    }
+
+    @media all and (max-width: 1256px ) {
+      .title {
+        font-size: 3em;
+        width: 50%;
+      }
+    }
+
+    .login-register {
+      position: relative;
+      top: 22.5px;
+      float: right;
+      margin-right: 2%;
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+    }
+
+    .nav {
+      height: 60px;
+      background-color: rgba(160, 179, 179, 0.5);
+    }
+
+    .nav-button {
+      margin-top: 12.5px;
+      height: 100%;
+      list-style-type: none;
+      float: left;
+      padding-right: 5px;
+    }
+
+    .nav-button a, .nav-contact a {
+      padding: 0 10px;
+      font-size: 20pt;
+      font-weight: bold;
+      color: darkblue;
+      text-decoration: none;
+      transition: all .2s ease-in-out;
+    }
+
+    .nav-button a:hover, .nav-button a:focus, .nav-contact a:hover, .nav-contact a:focus {
+      border-radius: 20px;
+      background-color: rgb(160, 179, 179);
+    }
+
+    .nav-contact {
+      margin-top: 12.5px;
+      list-style-type: none;
+      float: left;
+    }
+
+    .contact-content {
+      display: none;
+      position: absolute;
+      margin-left: 15.55%;
+      margin-top: 52.5px;
+      background-color: rgb(200, 200, 200);
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+      a {
+        color: darkblue;
+        padding: 12px 13.5px;
+        text-decoration: none;
+        display: block;
+      }
+
+      a:hover {
+        background-color: rgba(160, 179, 179, 0.7);
+        color: white;
+      }
+    }
+
+    .contact:hover .contact-content {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+body {
+    background: url(pictures/background.jpg) fixed;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -23px;
+    opacity: .999999;
+}
+.content {
+    background-color: white;
+    width: 99%;
+    height: 66%;
+    margin-left: .5%;
+}
+.subcontent1 h2 {
+    text-align: center;
+}

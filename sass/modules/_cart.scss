@@ -1,0 +1,271 @@
+.cart {
+  height: 1000px;
+  margin-bottom: 475px;
+
+  .content {
+    height: 1000px;
+
+    .profile {
+      width: 80%;
+      padding-left: 20%;
+
+      .title {
+        font-size: 25pt;
+      }
+
+      ul {
+        display: block;
+        text-align: left;
+        list-style: none;
+
+        hr {
+          float: left;
+          width: 25%;
+        }
+
+        li {
+          font-size: 13pt;
+        }
+
+        .li-title {
+          font-size: 15pt;
+        }
+      }
+
+      .clear-cart{
+        float: right;
+        margin-right: 15%;
+      }
+    }
+
+    .titles {
+      width: 100%;
+      text-align: left;
+
+      #order-history {
+        font-size: 15pt;
+        float: left;
+        padding-left: 7%;
+        width: 43%;
+      }
+
+      #shopping-cart {
+        font-size: 15pt;
+        float: right;
+        width: 50%;
+      }
+    }
+
+    .order-history {
+      text-align: left;
+      float: left;
+      padding-left: 7%;
+      width: 40%;
+
+      table, td, tr {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+
+      th {
+        color: #ffffff;
+        background: #000000;
+        width: 184px;
+      }
+
+      table {
+        width: 100%;
+        text-align: left;
+
+        td {
+          width: 184px;
+        }
+
+        tr:nth-child(odd) {
+          background-color: #fff;
+        }
+
+        thead {
+          display: block;
+          position: relative;
+          width: 763px;
+          background-color: black;
+        }
+
+        tbody {
+          display: block;
+          overflow: auto;
+          height: 500px;
+          width: 100%;
+        }
+      }
+    }
+
+    .shopping-cart {
+      width: 50%;
+      float: right;
+      text-align: right;
+
+
+      span {
+        font-size: 25pt;
+      }
+    }
+
+    .cart-buttons {
+      margin-left: 50%;
+      width: 50%;
+      text-align: left;
+
+      #clear {
+        float: left;
+        text-align: right;
+        width: 100px;
+
+        .button {
+          border: 1px solid lightblue;
+          color: #000;
+          text-align: center;
+          font-size: 13pt;
+          padding: 3px;
+          width: 100px;
+          transition: all 0.5s;
+          cursor: pointer;
+          margin-top: 5px;
+
+          span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+          }
+        }
+
+        .button:hover {
+          width: 130px;
+          background-color: white;
+        }
+
+        .button span:before {
+          content: '<<';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          left: 80px;
+          //right: 500px;
+          transition: 0.5s;
+          animation-direction: alternate;
+        }
+
+        .button:hover span {
+          padding-left: 35px;
+        }
+
+        .button:hover span:before {
+          opacity: 1;
+          left: 0;
+        }
+      }
+
+      #checkout {
+        float: right;
+        text-align: right;
+        margin-right: 177.467px;
+
+        .button {
+          border: 1px solid lightblue;
+          color: #000;
+          text-align: center;
+          font-size: 13pt;
+          padding: 3px;
+          width: 110px;
+          transition: all 0.5s;
+          cursor: pointer;
+          margin-top: 5px;
+
+          span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+          }
+        }
+
+        .button:hover {
+          width: 145px;
+          background-color: white;
+        }
+
+        .button span:after {
+          content: '>>';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: 100px;
+          transition: 0.5s;
+        }
+
+        .button:hover span {
+          padding-right: 35px;
+        }
+
+        .button:hover span:after {
+          opacity: 1;
+          right: 0;
+        }
+      }
+    }
+
+    .shopping-cart-list {
+      width: 40%;
+      float: left;
+
+      table, td, tr {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+
+      th {
+        color: #ffffff;
+        background: #000000;
+        width: 190px;
+      }
+
+      table {
+        width: 100%;
+        text-align: left;
+
+        td {
+          width: 184px;
+        }
+
+        tr:nth-child(odd) {
+          background-color: #fff;
+        }
+
+        thead {
+          display: block;
+          position: relative;
+          width: 763px;
+          background-color: black;
+        }
+
+        tbody {
+          display: block;
+          overflow: auto;
+          height: 500px;
+          width: 100%;
+        }
+      }
+    }
+    
+    .price {
+      float: left;
+      text-align: right;
+      margin-left: 20%;
+      margin-top: 10px;
+    }
+  }
+}

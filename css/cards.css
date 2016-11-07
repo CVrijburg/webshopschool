@@ -1,0 +1,81 @@
+body {
+    height: 2575px;
+}
+.content {
+    height: 74%;
+}
+.subcontent1 h2 {
+    text-align: center;
+}
+.items1 {
+    height: 550px;
+    width: 500px;
+    border: solid 1px lightblue;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    float: left;
+}
+.items1 img {
+    width: 100%;
+    height: 55%;
+}
+.items1 h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: normal;
+    font-size: 12pt;
+    margin-top: 5px;
+}
+#less-width img {
+    width: 80%;
+    margin-left: 10%;
+}
+#less-width2 img {
+    width: 60%;
+    margin-left: 20%;
+}
+.subcontent2 h2 {
+    text-align: center;
+}
+.items2 {
+    height: 525px;
+    width: 500px;
+    border: solid 1px lightblue;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    float: left;
+}
+.items2 h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: normal;
+    font-size: 12pt;
+    margin-top: 5px;
+}
+.items2 img {
+    width: 100%;
+    height: 55%;
+}
+.items2 ul li {
+    list-style-type: none;
+    padding: 1%;
+}
+.items2 ul a {
+    text-decoration: none;
+    color: darkblue;
+    background-color: white;
+    border: 1px solid darkblue;
+    border-radius: 2px;
+}
+.items2 ul a:hover {
+    color: white;
+    background-color: darkblue
+}
+.items2 p {
+    padding: 0% 5% 0% 5%;
+}
+#bestellen {
+    margin-right: -1px;
+    margin-left: -40px;
+    text-align: center;
+}

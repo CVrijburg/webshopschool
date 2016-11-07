@@ -1,0 +1,34 @@
+body {
+    background: url(background.jpg) fixed;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -23px;
+    height: 2000px;
+    opacity: .999999;
+}
+.subcontent1 h2 {
+    text-align: center;
+}
+.items {
+    height: 550px;
+    width: 500px;
+    border: solid 1px lightblue;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    float: left;
+}
+.items img {
+    width: 100%;
+    height: 55%;
+}
+#less-width img {
+    width: 80%;
+    margin-left: 10%;
+}
+.items h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: normal;
+    font-size: 12pt;
+    margin-top: 5px;
+}

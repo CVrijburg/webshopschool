@@ -1,0 +1,50 @@
+body {
+    height: 750px;
+}
+.content h2 {
+    display: block;
+    margin: 10px auto 10px 32%;
+    width: 40%;
+}
+.subcontent1 {
+    width: 50%;
+    float: left;
+}
+.subcontent2 {
+    width: 50%;
+    float: left;
+}
+.content .input-field {
+    display: block;
+    margin: 10px auto 10px 32%;
+    padding: 5px 30px 5px 50px;
+    width: 40%;
+    text-align: center;
+    font-size: 14px;
+}
+.content input[type=submit] {
+    width: 21.2%;
+    margin-left: 46.5%;
+}
+.content label {
+    float: left;
+    clear: left;
+    padding-top: 7px;
+    width: 182px;
+    margin-left: 1%;
+    text-align: right;
+}
+.subcontent3 p, .subcontent3 h3 {
+    font-style: italic;
+    margin: 1%;
+    margin-left: 66%;
+}
+input:valid {
+    color: blue;
+}
+input:invalid {
+    color: red;
+}
+label:not([for=email]) {
+    margin-top: -1px;
+}

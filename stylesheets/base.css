@@ -1,0 +1,882 @@
+/* line 1, ../sass/modules/_general.scss */
+body {
+  background: url(pictures/background.jpg) fixed;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -23px;
+  opacity: .999999;
+}
+
+/* line 8, ../sass/modules/_general.scss */
+.content {
+  background-color: #ededed;
+  width: 99%;
+  height: 66%;
+  margin-left: .5%;
+}
+
+/* line 15, ../sass/modules/_general.scss */
+.subcontent1 h2 {
+  text-align: center;
+}
+
+/* line 1, ../sass/modules/_home.scss */
+.home {
+  height: 950px;
+  margin-bottom: 430px;
+  opacity: .999999;
+  z-index: -2;
+}
+/* line 7, ../sass/modules/_home.scss */
+.home .content {
+  height: 700px;
+}
+/* line 12, ../sass/modules/_home.scss */
+.home .content .items {
+  height: 550px;
+  width: 26.53%;
+  border: solid 1px lightblue;
+  margin-left: 5%;
+  margin-top: 1.5%;
+  float: left;
+}
+/* line 20, ../sass/modules/_home.scss */
+.home .content .items img {
+  height: 55%;
+  width: 80%;
+  margin-left: 10%;
+}
+/* line 26, ../sass/modules/_home.scss */
+.home .content .items h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: normal;
+  font-size: 12pt;
+  margin-top: 5px;
+}
+/* line 34, ../sass/modules/_home.scss */
+.home .content .items .in-cart {
+  border: 1px solid lightblue;
+  color: #000;
+  padding: 3px;
+  text-decoration: none;
+  margin-right: 5%;
+  float: right;
+}
+/* line 43, ../sass/modules/_home.scss */
+.home .content .items .in-cart:hover {
+  border: 1px solid darkblue;
+  border-radius: 5px;
+  background-color: #fff;
+}
+/* line 49, ../sass/modules/_home.scss */
+.home .content .items #button-spacing {
+  width: 50%;
+}
+@media all and (max-width: 628px) {
+  /* line 56, ../sass/modules/_home.scss */
+  .home .items {
+    width: 79.61%;
+  }
+}
+@media all and (max-width: 1256px) and (min-width: 629px) {
+  /* line 62, ../sass/modules/_home.scss */
+  .home .items {
+    width: 40%;
+  }
+}
+
+/* line 1, ../sass/modules/_account.scss */
+.account {
+  height: 750px;
+}
+/* line 5, ../sass/modules/_account.scss */
+.account .content h2 {
+  display: block;
+  margin: 10px auto 10px 32%;
+  width: 40%;
+}
+/* line 11, ../sass/modules/_account.scss */
+.account .content .input-field {
+  display: block;
+  margin: 10px auto 10px 32%;
+  padding: 5px 30px 5px 50px;
+  width: 40%;
+  text-align: center;
+  font-size: 14px;
+}
+/* line 20, ../sass/modules/_account.scss */
+.account .content input[type=submit] {
+  width: 21.2%;
+  margin-left: 46.5%;
+  cursor: pointer;
+}
+/* line 26, ../sass/modules/_account.scss */
+.account .content label {
+  float: left;
+  clear: left;
+  padding-top: 7px;
+  width: 182px;
+  margin-left: 1%;
+  text-align: right;
+}
+/* line 35, ../sass/modules/_account.scss */
+.account .subcontent1 {
+  width: 50%;
+  float: left;
+}
+/* line 39, ../sass/modules/_account.scss */
+.account .subcontent2 {
+  width: 50%;
+  float: left;
+}
+/* line 43, ../sass/modules/_account.scss */
+.account .subcontent3 p, .account .subcontent3 h3 {
+  font-style: italic;
+  margin: 1%;
+  margin-left: 66%;
+}
+/* line 48, ../sass/modules/_account.scss */
+.account input:valid {
+  color: blue;
+}
+/* line 51, ../sass/modules/_account.scss */
+.account input:invalid {
+  color: red;
+}
+/* line 54, ../sass/modules/_account.scss */
+.account label:not([for=email]) {
+  margin-top: -1px;
+}
+
+/* line 1, ../sass/modules/_cards.scss */
+.cards {
+  height: 2575px;
+  opacity: .999999;
+  z-index: -2;
+}
+/* line 6, ../sass/modules/_cards.scss */
+.cards .content {
+  height: 74%;
+}
+/* line 10, ../sass/modules/_cards.scss */
+.cards .subcontent1 h2 {
+  text-align: center;
+}
+/* line 14, ../sass/modules/_cards.scss */
+.cards .items1 {
+  height: 550px;
+  width: 26.53%;
+  border: solid 1px lightblue;
+  margin-left: 5%;
+  margin-top: 1.5%;
+  float: left;
+}
+/* line 22, ../sass/modules/_cards.scss */
+.cards .items1 h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: normal;
+  font-size: 12pt;
+  margin-top: 5px;
+}
+/* line 30, ../sass/modules/_cards.scss */
+.cards .items1 img {
+  height: 55%;
+  width: 80%;
+  margin-left: 10%;
+}
+/* line 36, ../sass/modules/_cards.scss */
+.cards .items1 .in-cart {
+  border: 1px solid lightblue;
+  color: #000;
+  padding: 3px;
+  text-decoration: none;
+  margin-right: 5%;
+  float: right;
+  cursor: pointer;
+}
+/* line 46, ../sass/modules/_cards.scss */
+.cards .items1 .in-cart:hover {
+  border: 1px solid darkblue;
+  border-radius: 5px;
+  background-color: #fff;
+}
+@media all and (max-width: 628px) {
+  /* line 54, ../sass/modules/_cards.scss */
+  .cards .items1 {
+    width: 80%;
+  }
+}
+@media all and (max-width: 1256px) and (min-width: 629px) {
+  /* line 60, ../sass/modules/_cards.scss */
+  .cards .items1 {
+    width: 40%;
+  }
+}
+/* line 65, ../sass/modules/_cards.scss */
+.cards #less-width img {
+  width: 80%;
+  margin-left: 10%;
+}
+/* line 70, ../sass/modules/_cards.scss */
+.cards .subcontent2 h2 {
+  text-align: center;
+}
+/* line 74, ../sass/modules/_cards.scss */
+.cards .items2 {
+  height: 525px;
+  width: 500px;
+  border: solid 1px lightblue;
+  margin-left: 5%;
+  margin-top: 1.5%;
+  float: left;
+}
+/* line 82, ../sass/modules/_cards.scss */
+.cards .items2 h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: normal;
+  font-size: 12pt;
+  margin-top: 5px;
+}
+/* line 90, ../sass/modules/_cards.scss */
+.cards .items2 img {
+  width: 100%;
+  height: 55%;
+}
+/* line 95, ../sass/modules/_cards.scss */
+.cards .items2 ul li {
+  list-style-type: none;
+  padding: 1%;
+}
+/* line 100, ../sass/modules/_cards.scss */
+.cards .items2 ul a {
+  text-decoration: none;
+  color: darkblue;
+  background-color: white;
+  border: 1px solid darkblue;
+  border-radius: 2px;
+}
+/* line 108, ../sass/modules/_cards.scss */
+.cards .items2 ul a:hover {
+  color: white;
+  background-color: darkblue;
+}
+/* line 113, ../sass/modules/_cards.scss */
+.cards .items2 p {
+  padding: 0 5% 0 5%;
+}
+/* line 118, ../sass/modules/_cards.scss */
+.cards #bestellen {
+  margin-right: -1px;
+  margin-left: -40px;
+  text-align: center;
+}
+
+/* line 1, ../sass/modules/_cart.scss */
+.cart {
+  height: 1000px;
+  margin-bottom: 475px;
+}
+/* line 5, ../sass/modules/_cart.scss */
+.cart .content {
+  height: 1000px;
+}
+/* line 8, ../sass/modules/_cart.scss */
+.cart .content .profile {
+  width: 80%;
+  padding-left: 20%;
+}
+/* line 12, ../sass/modules/_cart.scss */
+.cart .content .profile .title {
+  font-size: 25pt;
+}
+/* line 16, ../sass/modules/_cart.scss */
+.cart .content .profile ul {
+  display: block;
+  text-align: left;
+  list-style: none;
+}
+/* line 21, ../sass/modules/_cart.scss */
+.cart .content .profile ul hr {
+  float: left;
+  width: 25%;
+}
+/* line 26, ../sass/modules/_cart.scss */
+.cart .content .profile ul li {
+  font-size: 13pt;
+}
+/* line 30, ../sass/modules/_cart.scss */
+.cart .content .profile ul .li-title {
+  font-size: 15pt;
+}
+/* line 35, ../sass/modules/_cart.scss */
+.cart .content .profile .clear-cart {
+  float: right;
+  margin-right: 15%;
+}
+/* line 41, ../sass/modules/_cart.scss */
+.cart .content .titles {
+  width: 100%;
+  text-align: left;
+}
+/* line 45, ../sass/modules/_cart.scss */
+.cart .content .titles #order-history {
+  font-size: 15pt;
+  float: left;
+  padding-left: 7%;
+  width: 43%;
+}
+/* line 52, ../sass/modules/_cart.scss */
+.cart .content .titles #shopping-cart {
+  font-size: 15pt;
+  float: right;
+  width: 50%;
+}
+/* line 59, ../sass/modules/_cart.scss */
+.cart .content .order-history {
+  text-align: left;
+  float: left;
+  padding-left: 7%;
+  width: 40%;
+}
+/* line 65, ../sass/modules/_cart.scss */
+.cart .content .order-history table, .cart .content .order-history td, .cart .content .order-history tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+/* line 71, ../sass/modules/_cart.scss */
+.cart .content .order-history th {
+  color: #ffffff;
+  background: #000000;
+  width: 184px;
+}
+/* line 77, ../sass/modules/_cart.scss */
+.cart .content .order-history table {
+  width: 100%;
+  text-align: left;
+}
+/* line 81, ../sass/modules/_cart.scss */
+.cart .content .order-history table td {
+  width: 184px;
+}
+/* line 85, ../sass/modules/_cart.scss */
+.cart .content .order-history table tr:nth-child(odd) {
+  background-color: #fff;
+}
+/* line 89, ../sass/modules/_cart.scss */
+.cart .content .order-history table thead {
+  display: block;
+  position: relative;
+  width: 763px;
+  background-color: black;
+}
+/* line 96, ../sass/modules/_cart.scss */
+.cart .content .order-history table tbody {
+  display: block;
+  overflow: auto;
+  height: 500px;
+  width: 100%;
+}
+/* line 105, ../sass/modules/_cart.scss */
+.cart .content .shopping-cart {
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+/* line 111, ../sass/modules/_cart.scss */
+.cart .content .shopping-cart span {
+  font-size: 25pt;
+}
+/* line 116, ../sass/modules/_cart.scss */
+.cart .content .cart-buttons {
+  margin-left: 50%;
+  width: 50%;
+  text-align: left;
+}
+/* line 121, ../sass/modules/_cart.scss */
+.cart .content .cart-buttons #clear {
+  float: left;
+  text-align: right;
+  width: 100px;
+}
+/* line 126, ../sass/modules/_cart.scss */
+.cart .content .cart-buttons #clear .button {
+  border: 1px solid lightblue;
+  color: #000;
+  text-align: center;
+  font-size: 13pt;
+  padding: 3px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 5px;
+}
+/* line 137, ../sass/modules/_cart.scss */
+.cart .content .cart-buttons #clear .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+/* line 145, ../sass/modules/_cart.scss */
+.cart .content .cart-buttons #clear .button:hover {
+  width: 130px;
+  background-color: white;
+}
+/* line 150, ../sass/modules/_cart.scss */
+.cart .content .cart-buttons #clear .button span:before {
+  content: '<<';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 80px;
+  transition: 0.5s;
+  animation-direction: alternate;
+}
+/* line 161, ../sass/modules/_cart.scss */
+.cart .content .cart-buttons #clear .button:hover span {
+  padding-left: 35px;
+}
+/* line 165, ../sass/modules/_cart.scss */
+.cart .content .cart-buttons #clear .button:hover span:before {
+  opacity: 1;
+  left: 0;
+}
+/* line 171, ../sass/modules/_cart.scss */
+.cart .content .cart-buttons #checkout {
+  float: right;
+  text-align: right;
+  margin-right: 177.467px;
+}
+/* line 176, ../sass/modules/_cart.scss */
+.cart .content .cart-buttons #checkout .button {
+  border: 1px solid lightblue;
+  color: #000;
+  text-align: center;
+  font-size: 13pt;
+  padding: 3px;
+  width: 110px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 5px;
+}
+/* line 187, ../sass/modules/_cart.scss */
+.cart .content .cart-buttons #checkout .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+/* line 195, ../sass/modules/_cart.scss */
+.cart .content .cart-buttons #checkout .button:hover {
+  width: 145px;
+  background-color: white;
+}
+/* line 200, ../sass/modules/_cart.scss */
+.cart .content .cart-buttons #checkout .button span:after {
+  content: '>>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: 100px;
+  transition: 0.5s;
+}
+/* line 209, ../sass/modules/_cart.scss */
+.cart .content .cart-buttons #checkout .button:hover span {
+  padding-right: 35px;
+}
+/* line 213, ../sass/modules/_cart.scss */
+.cart .content .cart-buttons #checkout .button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* line 220, ../sass/modules/_cart.scss */
+.cart .content .shopping-cart-list {
+  width: 40%;
+  float: left;
+}
+/* line 224, ../sass/modules/_cart.scss */
+.cart .content .shopping-cart-list table, .cart .content .shopping-cart-list td, .cart .content .shopping-cart-list tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+/* line 230, ../sass/modules/_cart.scss */
+.cart .content .shopping-cart-list th {
+  color: #ffffff;
+  background: #000000;
+  width: 190px;
+}
+/* line 236, ../sass/modules/_cart.scss */
+.cart .content .shopping-cart-list table {
+  width: 100%;
+  text-align: left;
+}
+/* line 240, ../sass/modules/_cart.scss */
+.cart .content .shopping-cart-list table td {
+  width: 184px;
+}
+/* line 244, ../sass/modules/_cart.scss */
+.cart .content .shopping-cart-list table tr:nth-child(odd) {
+  background-color: #fff;
+}
+/* line 248, ../sass/modules/_cart.scss */
+.cart .content .shopping-cart-list table thead {
+  display: block;
+  position: relative;
+  width: 763px;
+  background-color: black;
+}
+/* line 255, ../sass/modules/_cart.scss */
+.cart .content .shopping-cart-list table tbody {
+  display: block;
+  overflow: auto;
+  height: 500px;
+  width: 100%;
+}
+/* line 264, ../sass/modules/_cart.scss */
+.cart .content .price {
+  float: left;
+  text-align: right;
+  margin-left: 20%;
+  margin-top: 10px;
+}
+
+/* line 1, ../sass/modules/_contact.scss */
+.contact-php {
+  height: 1425px;
+  opacity: .999999;
+  z-index: -2;
+}
+/* line 6, ../sass/modules/_contact.scss */
+.contact-php .content {
+  height: 53%;
+}
+/* line 9, ../sass/modules/_contact.scss */
+.contact-php .content-header {
+  margin: 1%;
+}
+/* line 12, ../sass/modules/_contact.scss */
+.contact-php .content-header h2 {
+  text-align: center;
+}
+/* line 16, ../sass/modules/_contact.scss */
+.contact-php .content-header p {
+  font-weight: bold;
+  font-style: italic;
+}
+/* line 21, ../sass/modules/_contact.scss */
+.contact-php .content-block {
+  width: 48%;
+  margin: 1%;
+  float: left;
+}
+/* line 27, ../sass/modules/_contact.scss */
+.contact-php #button a {
+  padding: 2px;
+  text-decoration: none;
+  color: darkblue;
+  background-color: white;
+  border: 1px solid darkblue;
+  border-radius: 2px;
+}
+/* line 36, ../sass/modules/_contact.scss */
+.contact-php #button :hover {
+  color: white;
+  background-color: darkblue;
+}
+/* line 41, ../sass/modules/_contact.scss */
+.contact-php .feedback-text {
+  display: block;
+  margin: 0 1% 1% 1%;
+  width: 96.5%;
+  text-align: left;
+  font-size: 16px;
+}
+/* line 48, ../sass/modules/_contact.scss */
+.contact-php .feedback-submit {
+  width: 10%;
+  margin-left: 1%;
+  cursor: pointer;
+}
+
+/* line 1, ../sass/modules/_cooling.scss */
+.cooling {
+  height: 2000px;
+  opacity: .999999;
+  z-index: -2;
+}
+/* line 6, ../sass/modules/_cooling.scss */
+.cooling .item, .cooling .accessory {
+  height: 550px;
+  width: 500px;
+  border: solid 1px lightblue;
+  margin-left: 5%;
+  margin-top: 1.5%;
+  float: left;
+}
+/* line 14, ../sass/modules/_cooling.scss */
+.cooling .item img, .cooling .accessory img {
+  width: 100%;
+  height: 55%;
+}
+/* line 18, ../sass/modules/_cooling.scss */
+.cooling .item h3, .cooling .accessory h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: normal;
+  font-size: 12pt;
+  margin-top: 5px;
+}
+/* line 25, ../sass/modules/_cooling.scss */
+.cooling #less-width img {
+  width: 80%;
+  margin-left: 10%;
+}
+/* line 29, ../sass/modules/_cooling.scss */
+.cooling #less-width2 img {
+  width: 60%;
+  margin-left: 20%;
+}
+/* line 34, ../sass/modules/_cooling.scss */
+.cooling .accessory ul li {
+  list-style-type: none;
+  padding: 1%;
+}
+/* line 38, ../sass/modules/_cooling.scss */
+.cooling .accessory ul li :hover {
+  color: white;
+  background-color: darkblue;
+}
+/* line 44, ../sass/modules/_cooling.scss */
+.cooling .accessory ul a {
+  text-decoration: none;
+  color: darkblue;
+  background-color: white;
+  border: 1px solid darkblue;
+  border-radius: 2px;
+}
+/* line 52, ../sass/modules/_cooling.scss */
+.cooling .accessory p {
+  padding: 0% 5% 0% 5%;
+}
+
+/* line 1, ../sass/modules/_general.scss */
+body {
+  background: url(pictures/background.jpg) fixed;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -23px;
+  opacity: .999999;
+}
+
+/* line 8, ../sass/modules/_general.scss */
+.content {
+  background-color: #ededed;
+  width: 99%;
+  height: 66%;
+  margin-left: .5%;
+}
+
+/* line 15, ../sass/modules/_general.scss */
+.subcontent1 h2 {
+  text-align: center;
+}
+
+/* line 2, ../sass/modules/items/_footer.scss */
+.footer .info {
+  position: fixed;
+  bottom: 0;
+  height: 51.4%;
+  width: 55%;
+  margin-left: 45%;
+  z-index: -1;
+}
+/* line 10, ../sass/modules/items/_footer.scss */
+.footer .info h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+/* line 16, ../sass/modules/items/_footer.scss */
+.footer .info p {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/* line 23, ../sass/modules/items/_footer.scss */
+.footer .legal {
+  text-align: right;
+  margin-right: 55px;
+  margin-top: 40px;
+}
+/* line 29, ../sass/modules/items/_footer.scss */
+.footer fieldset {
+  border: 0;
+}
+/* line 33, ../sass/modules/items/_footer.scss */
+.footer .newsletter {
+  position: fixed;
+  bottom: 0;
+  height: 51.4%;
+  width: 100%;
+  z-index: -1;
+}
+/* line 40, ../sass/modules/items/_footer.scss */
+.footer .newsletter legend {
+  margin-left: 16%;
+  margin-top: .2%;
+}
+/* line 45, ../sass/modules/items/_footer.scss */
+.footer .newsletter .input-field {
+  display: block;
+  margin: 10px auto 10px 16%;
+  padding: 5px 30px 5px 50px;
+  width: 20%;
+  text-align: center;
+  font-size: 14px;
+}
+/* line 54, ../sass/modules/items/_footer.scss */
+.footer .newsletter select {
+  display: block;
+  margin: 10px auto 10px 23.7%;
+}
+/* line 59, ../sass/modules/items/_footer.scss */
+.footer .newsletter input[type=submit] {
+  width: 10.6%;
+  margin-left: 24%;
+  cursor: pointer;
+}
+/* line 65, ../sass/modules/items/_footer.scss */
+.footer .newsletter label {
+  float: left;
+  clear: left;
+  padding-top: 18px;
+  width: 182px;
+  margin-left: 1%;
+  text-align: right;
+}
+/* line 74, ../sass/modules/items/_footer.scss */
+.footer .newsletter label[for=part] {
+  padding-top: 0;
+}
+/* line 78, ../sass/modules/items/_footer.scss */
+.footer .newsletter label:not([for=email]) {
+  margin-top: -10px;
+}
+/* line 83, ../sass/modules/items/_footer.scss */
+.footer input:valid {
+  color: blue;
+}
+/* line 87, ../sass/modules/items/_footer.scss */
+.footer input:invalid {
+  color: red;
+}
+
+/* line 1, ../sass/modules/items/_header.scss */
+.header {
+  width: 100%;
+}
+@media all and (max-width: 628px) {
+  /* line 5, ../sass/modules/items/_header.scss */
+  .header .nav {
+    width: 50%;
+    float: left;
+  }
+  /* line 10, ../sass/modules/items/_header.scss */
+  .header .title {
+    width: 50%;
+    float: left;
+    font-size: 2em;
+  }
+}
+@media all and (min-width: 629px) {
+  /* line 18, ../sass/modules/items/_header.scss */
+  .header .title {
+    font-size: 5em;
+    text-align: center;
+    margin-top: 0;
+  }
+}
+@media all and (min-width: 629px) and (max-width: 1256px) {
+  /* line 25, ../sass/modules/items/_header.scss */
+  .header .title {
+    font-size: 3em;
+    width: 50%;
+  }
+}
+@media all and (min-width: 629px) {
+  /* line 31, ../sass/modules/items/_header.scss */
+  .header .login-register {
+    position: relative;
+    top: 22.5px;
+    float: right;
+    margin-right: 2%;
+  }
+  /* line 37, ../sass/modules/items/_header.scss */
+  .header .login-register a {
+    color: black;
+    text-decoration: none;
+  }
+  /* line 43, ../sass/modules/items/_header.scss */
+  .header .nav {
+    height: 60px;
+    background-color: rgba(160, 179, 179, 0.5);
+  }
+  /* line 48, ../sass/modules/items/_header.scss */
+  .header .nav-button {
+    margin-top: 12.5px;
+    height: 100%;
+    list-style-type: none;
+    float: left;
+    padding-right: 5px;
+  }
+  /* line 56, ../sass/modules/items/_header.scss */
+  .header .nav-button a, .header .nav-contact a {
+    padding: 0 10px;
+    font-size: 20pt;
+    font-weight: bold;
+    color: darkblue;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+  }
+  /* line 65, ../sass/modules/items/_header.scss */
+  .header .nav-button a:hover, .header .nav-button a:focus, .header .nav-contact a:hover, .header .nav-contact a:focus {
+    border-radius: 20px;
+    background-color: #a0b3b3;
+  }
+  /* line 70, ../sass/modules/items/_header.scss */
+  .header .nav-contact {
+    margin-top: 12.5px;
+    list-style-type: none;
+    float: left;
+  }
+  /* line 76, ../sass/modules/items/_header.scss */
+  .header .contact-content {
+    display: none;
+    position: absolute;
+    margin-left: 15.55%;
+    margin-top: 52.5px;
+    background-color: #c8c8c8;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  /* line 84, ../sass/modules/items/_header.scss */
+  .header .contact-content a {
+    color: darkblue;
+    padding: 12px 13.5px;
+    text-decoration: none;
+    display: block;
+  }
+  /* line 91, ../sass/modules/items/_header.scss */
+  .header .contact-content a:hover {
+    background-color: rgba(160, 179, 179, 0.7);
+    color: white;
+  }
+  /* line 97, ../sass/modules/items/_header.scss */
+  .header .contact:hover .contact-content {
+    display: block;
+  }
+}
